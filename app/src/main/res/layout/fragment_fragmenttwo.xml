@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmenttwo">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <VideoView
+        android:id="@+id/id_videv"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:id="@+id/id_tvcount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:id="@+id/id_btnagain"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10dp"/>
+    <Button
+        android:id="@+id/id_btnlogout"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10dp"/>
+
+</LinearLayout>
+</FrameLayout>
